@@ -8,7 +8,7 @@ const rl = readline.createInterface({ input, output });
 
 const gestor = new GestorAcademico();
 let sistemaCadastro = true;
-
+//while: cria um loop que continua executando enquanto a condição for verdadeira, permite que o usuário interaja com o sistema até decidir sair.--//
 while (sistemaCadastro) {
     console.log("====== SISTEMA ACADÊMICO ======");
     console.log("\nEscolha a opção desejada:");
